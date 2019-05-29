@@ -29,7 +29,8 @@ Add it in your root build.gradle at the end of repositories:
  |Attributes|default value|Description|
 |:---|:---|:---|
 |app:code_length|6||
-|code_linebg|color|line color|
-|code_type|password\nplaincode||
+|app:code_linebg|color|line color|
+|app:code_type|password
+plaincode||
 
  
