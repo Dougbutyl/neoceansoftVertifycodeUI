@@ -1,6 +1,6 @@
 # 新海内部UI
 ## 密码输入框
-## Usage
+## VertifyCodeView
 ![image](https://github.com/Dougbutyl/neoceansoftVertifycodeUI/blob/master/screenshots/device-2019-05-29-140949.png)
 
 ## Dependency
@@ -8,6 +8,7 @@ Add it in your root build.gradle at the end of repositories:
 ``` Java
  maven { url 'https://jitpack.io' }
  ```
+ and then add dependency
 ``` Java
  compile 'com.github.Dougbutyl:neosceansoftDateTool:1.6'
  ```
