@@ -6,11 +6,19 @@
 ## Dependency
 Add it in your root build.gradle at the end of repositories:
 ``` Java
- maven { url 'https://jitpack.io' }
+ 	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
  ```
  and then add dependency
 ``` Java
- compile 'com.github.Dougbutyl:neosceansoftDateTool:1.6'
+ 	dependencies {
+	        implementation 'com.github.Dougbutyl:neoceansoftVertifycodeUI:1.3'
+	}
+
  ```
  ## Usage
  ### Xml
