@@ -23,7 +23,8 @@ Add it in your root build.gradle at the end of repositories:
         app:code_frametype="line"
         android:layout_marginTop="5dp"
         app:code_length="4"
-        app:code_type="plaincode"></com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
+        app:code_type="plaincode">
+        </com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
 ```
  |列名1|列名2|
 |:---|:---|
