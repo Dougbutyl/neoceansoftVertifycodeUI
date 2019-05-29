@@ -3,6 +3,8 @@
 ## Usage
 ![image](https://github.com/Dougbutyl/neoceansoftVertifycodeUI/blob/master/screenshots/device-2019-05-29-140949.png)
 
+## Dependency
+Add it in your root build.gradle at the end of repositories:
 ``` Java
  maven { url 'https://jitpack.io' }
  ```
