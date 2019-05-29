@@ -31,5 +31,8 @@ Add it in your root build.gradle at the end of repositories:
 |app:code_length|6||
 |app:code_linebg|color|line color|
 |app:code_type|password<br>plaincode||
+|app:code_frametype|line<br>boder<br>nointboder||
+|app:code_bodercolor|color|boder color|
+
 
  
