@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ui_vertifycode">
+        <attr name="code_length" format="integer"></attr>
+        <attr name="code_linebg" format="color"></attr>
+        <attr name="code_type">
+            <enum name="password" value="1"></enum>
+            <enum name="plaincode" value="2"></enum>
+        </attr>
+        <attr name="code_frametype">
+            <enum name="line" value="1"></enum>
+            <enum name="boder" value="2"></enum>
+            <enum name="nointboder" value="3"></enum>
+        </attr>
+        <attr name="code_bodercolor" format="color"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="样式1"
+        android:layout_marginTop="15dp"
+        />
+    <com.neocean.app.neoceansoftuivertifycode.VertifyCodeView
+        android:id="@+id/vc_line"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        app:code_frametype="line"
+        android:layout_marginTop="5dp"
+        app:code_length="4"
+        app:code_type="plaincode"></com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="样式2"
+        android:layout_marginTop="15dp"
+        />
+    <com.neocean.app.neoceansoftuivertifycode.VertifyCodeView
+        android:id="@+id/vc_boder"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        app:code_bodercolor="@android:color/holo_blue_light"
+        app:code_frametype="boder"
+        android:layout_marginTop="5dp"
+        app:code_length="5"
+        app:code_type="password"></com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="样式3"
+        android:layout_marginTop="15dp"
+        />
+    <com.neocean.app.neoceansoftuivertifycode.VertifyCodeView
+        android:id="@+id/vc_nointboder"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        app:code_bodercolor="@android:color/holo_green_light"
+        app:code_frametype="nointboder"
+        app:code_length="6"
+        app:code_type="password"></com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
+
+
+</LinearLayout>
