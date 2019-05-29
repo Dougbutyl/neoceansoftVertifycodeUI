@@ -26,6 +26,15 @@ Add it in your root build.gradle at the end of repositories:
         app:code_type="plaincode">
         </com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
 ```
+### Listener
+```
+setVertifyCodeListener(new VertifyCodeView.VertifyCodeListener() {
+            @Override
+            public void onInputFinish(String inputContent) {
+                
+            }
+        });
+ ```
  |Attributes|default value|Description|
 |:---|:---|:---|
 |app:code_length|6||
