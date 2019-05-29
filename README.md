@@ -26,9 +26,10 @@ Add it in your root build.gradle at the end of repositories:
         app:code_type="plaincode">
         </com.neocean.app.neoceansoftuivertifycode.VertifyCodeView>
 ```
- |列名1|列名2|
-|:---|:---|
-|列1的内容1|列2的内容1|
-|列1的内容2|列2的内容2|
+ |Attributes|default value|Description|
+|:---|:---|:---|
+|app:code_length|6||
+|code_linebg|color|line color|
+|code_type|password\nplaincode||
 
  
