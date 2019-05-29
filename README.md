@@ -30,7 +30,6 @@ Add it in your root build.gradle at the end of repositories:
 |:---|:---|:---|
 |app:code_length|6||
 |app:code_linebg|color|line color|
-|app:code_type|password
-plaincode||
+|app:code_type|password<br>plaincode||
 
  
