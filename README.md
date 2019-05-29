@@ -7,6 +7,6 @@
  ```
 ``` Java
  compile 'com.github.Dougbutyl:neosceansoftDateTool:1.6'
-! [image](https://github.com/Dougbutyl/neoceansoftVertifycodeUI/blob/master/screenshots/device-2019-05-29-140949.png)
+![image](https://github.com/Dougbutyl/neoceansoftVertifycodeUI/blob/master/screenshots/device-2019-05-29-140949.png)
 
  
