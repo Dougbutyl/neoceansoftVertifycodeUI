@@ -12,6 +12,8 @@ Add it in your root build.gradle at the end of repositories:
 ``` Java
  compile 'com.github.Dougbutyl:neosceansoftDateTool:1.6'
  ```
+ ## Usage
+ ### Xml
  |列名1|列名2|
 |:---|:---|
 |列1的内容1|列2的内容1|
